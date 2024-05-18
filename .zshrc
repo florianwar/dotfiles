@@ -56,7 +56,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'exa -al $realpath'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias bat='batcat'
-alias c='chezmoi'
 alias cat='batcat'
 alias fd='fdfind'
 alias fzf='fzf --preview "batcat --color=always --style=numbers --line-range=:500 {}"'
@@ -87,8 +86,6 @@ function ya() {
 	rm -f -- "$tmp"
 }
 
-# chezmoi completions
-source <(chezmoi completion zsh)
 
 # GCloud SDK
 # if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then . '~/google-cloud-sdk/path.zsh.inc'; fi
