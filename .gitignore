@@ -6,6 +6,9 @@
 !.gitmodules
 !.config/
 
+!README.md
+!UNLICENSE.txt
+
 # shell
 !.p10k.zsh
 !.zshenv
