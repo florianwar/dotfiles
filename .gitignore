@@ -1,0 +1,12 @@
+# ignore all
+*
+
+# but not these
+!.config/yazi/**
+!/.config/fw-fanctrl/*
+!.config/kwinrulesrc
+!.config/kxkbrc
+!.p10k.zsh
+!.gitignore
+!.zshenv
+!.zshrc
