@@ -2,11 +2,35 @@
 *
 
 # but not these
-!.config/yazi/**
-!/.config/fw-fanctrl/*
-!.config/kwinrulesrc
-!.config/kxkbrc
-!.p10k.zsh
 !.gitignore
+!.config/
+
+# shell
+!.p10k.zsh
 !.zshenv
 !.zshrc
+
+# terminal
+!.config/kitty/
+!.config/kitty/**
+
+# k9s
+!.config/k9s/
+!.config/k9s/config.yaml
+!.config/k9s/aliases.yaml
+!.config/k9s/skins/
+!.config/k9s/skins/catppuccin-macchiato-transparent.yaml
+
+# fileexplorer
+!.config/yazi/
+!.config/yazi/**
+
+# framework laptop fancurves
+!.config/fw-fanctrl/
+!.config/fw-fanctrl/**
+
+# kitty as drop down in kde
+!.config/sxhkd/
+!.config/sxhkd/sxhkdrc
+!.config/kwinrulesrc
+!.config/kxkbrc

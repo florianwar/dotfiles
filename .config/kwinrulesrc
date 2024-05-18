@@ -1,0 +1,30 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Hide kitty titlebar
+fullscreen=true
+fullscreenrule=2
+noborder=true
+noborderrule=3
+wmclass=kitty
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[a4f87082-0102-48c3-8603-eb1d54411dd0]
+Description=kitty
+noborder=true
+noborderrule=5
+wmclass=kitty kitty
+wmclasscomplete=true
+wmclassmatch=1
+
+[fa2d6df1-db0e-4032-b708-6dc28b07322c]
+Description=Hide kitty titlebar
+noborder=true
+noborderrule=3
+wmclass=kitty
+wmclassmatch=1
