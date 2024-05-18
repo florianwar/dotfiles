@@ -3,6 +3,7 @@
 
 # but not these
 !.gitignore
+!.gitmodules
 !.config/
 
 # shell
@@ -13,6 +14,8 @@
 # terminal
 !.config/kitty/
 !.config/kitty/**
+
+!.config/nvim/
 
 # k9s
 !.config/k9s/
