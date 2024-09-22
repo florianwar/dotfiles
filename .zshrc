@@ -11,11 +11,6 @@ zinit pack"default+keys" for fzf
 
 zinit ice depth=1;
 zinit light romkatv/powerlevel10k
-zinit ice depth=1
-zinit light jeffreytse/zsh-vi-mode
-
-ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
-KEYTIMEOUT=10
 
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
