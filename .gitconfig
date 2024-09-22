@@ -1,0 +1,13 @@
+[user]
+  name = Florian Warninghoff
+	email = florian.warninghoff@gmail.com
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[rerere]
+  enabled = true
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
