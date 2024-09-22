@@ -66,6 +66,11 @@ alias ls='exa -al'
 alias lzd='lazydocker'
 alias tf="terraform"
 alias v='nvim'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 
 # Zoxide directory jumping
 eval "$(zoxide init zsh)"
