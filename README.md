@@ -21,17 +21,15 @@ My personal dotfiles provided as is and in a constant state of flux. Feel free t
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - docker terminal UI
 - [k9s](https://github.com/derailed/k9s) - kubernetes terminal UI
 
-## Kitty
+## Installation
 
-- neovim integration
-- tokyonight theme
-- [Jetbrains Mono nerdfont](https://www.nerdfonts.com/#home)
+Assuming you have [GNU Stow](https://www.gnu.org/software/stow/) installed, and cloned into ~/projects/dotfiles you can symlink the dotfiles to your home directory with the following command:
 
-## Zsh
+WARNING: This will overwrite any existing files in your home directory with the same name as the dotfiles.
 
-- zInit for package management
-- minimal prompt with p10k
-- vim keybindings, history search, autosuggestions, syntax highlighting
+```bash
+stow -S --adopt -d ~/projects/personal -t ~ dotfiles
+```
 
 ## Neovim
 
