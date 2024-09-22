@@ -1,4 +1,5 @@
 export EDITOR=nvim
+export KDE_SESSION_VERSION=5
 
 export GOPATH=$HOME/bin/go
 export DENO_INSTALL=$HOME/.deno
